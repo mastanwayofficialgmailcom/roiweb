@@ -1,0 +1,1 @@
+my php me database add newweb name se  kro then sql import kro the http://localhost/newweb/setup_admin.php ye url run kro admin admin123

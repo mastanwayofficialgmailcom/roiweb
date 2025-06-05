@@ -1,0 +1,42 @@
+How to Run the Website on Localhost (XAMPP)
+
+Step 1: Start XAMPP
+- Open XAMPP Control Panel
+- Start Apache and MySQL
+
+Step 2: Create Database in phpMyAdmin
+1. Open browser and go to:  
+   http://localhost/phpmyadmin
+
+2. Click on "New" from the left panel.
+
+3. Enter database name:  
+   advanced_mlm_roi  
+   Then click Create.
+
+Step 3: Import SQL File
+1. Select the newly created database advanced_mlm_roi.
+
+2. Click on the Import tab.
+
+3. Choose the file:  
+   database.sql
+
+4. Click on Go to import the database.
+
+Step 4: Create Wallets Table (Run Script)
+1. Open browser and visit:  
+   http://localhost/newweb/create_wallets_table.php
+
+2. This will:
+   - Create the wallets table
+   - Add default wallets for all existing users
+
+Step 5: Website is Ready to Use
+You can now access the website from:  
+http://localhost/newweb/public/login.php
+
+- Use admin or user credentials to log in
+- You can manage everything from the admin panel
+
+DONE! Your ROI Investment Website is Now Running on Localhost
